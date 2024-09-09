@@ -1,10 +1,3 @@
-//
-//  GameView.swift
-//  Swiftris
-//
-//  Created by Sungbae Kim on 2015. 7. 4..
-//  Copyright (c) 2015년 1minute2life. All rights reserved.
-//
 
 import UIKit
 

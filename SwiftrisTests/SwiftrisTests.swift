@@ -1,11 +1,3 @@
-//
-//  SwiftrisTests.swift
-//  SwiftrisTests
-//
-//  Created by 김성배 on 2015. 7. 3..
-//  Copyright (c) 2015년 1minute2life. All rights reserved.
-//
-
 import UIKit
 import XCTest
 
@@ -13,24 +5,33 @@ class SwiftrisTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Код для настройки перед выполнением каждого теста.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Код для очистки после выполнения каждого теста.
         super.tearDown()
     }
     
     func testExample() {
-        // This is an example of a functional test case.
+        // Пример функционального теста.
         XCTAssert(true, "Pass")
     }
     
     func testPerformanceExample() {
-        // This is an example of a performance test case.
+        // Пример теста производительности.
         self.measure() {
-            // Put the code you want to measure the time of here.
+            // Код для измерения времени выполнения здесь.
         }
     }
-    
 }
+//SwiftrisTests: Класс тестов, наследующий XCTestCase. Используется для написания модульных тестов для приложения.
+
+//setUp(): Вызывается перед выполнением каждого теста. Используется для настройки тестов.
+
+//tearDown(): Вызывается после выполнения каждого теста. Используется для очистки после тестов.
+
+//testExample(): Пример функционального теста. В данный момент просто проверяет, что true истинно.
+
+//testPerformanceExample(): Пример теста производительности. Измеряет время выполнения блока кода, хотя блок кода в данный момент пуст.
+
